@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-GIT OT PDV/[Ll]ibrary/
-GIT OT PDV/[Tt]emp/
-GIT OT PDV/[Oo]bj/
-GIT OT PDV/[Bb]uild/
-GIT OT PDV/[Bb]uilds/
-GIT OT PDV/[Ll]ogs/
-GIT OT PDV/[Uu]ser[Ss]ettings/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -72,3 +72,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 OperacionFracaso_PDV/Temp/UnityLockfile
 OperacionFracaso_PDV/Temp/FSTimeGet-16637b7028a2ff24e84ec4778134ceff
+OperacionFracaso_PDV/Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
