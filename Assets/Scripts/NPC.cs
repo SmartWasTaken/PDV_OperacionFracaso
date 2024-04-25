@@ -75,7 +75,7 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("NPC"))
+        if (other.CompareTag("Player"))
         {
             playerIsClose = true;
         }
