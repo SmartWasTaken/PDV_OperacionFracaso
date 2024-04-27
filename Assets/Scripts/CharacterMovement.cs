@@ -23,6 +23,11 @@ public class CharacterMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (DialogoManager.GetInstance().dialogueIsPlaying)
+        {
+            return;
+        }
+
         rb.MovePosition(rb.position + movement * velocity * Time.fixedDeltaTime);
     }
 }
