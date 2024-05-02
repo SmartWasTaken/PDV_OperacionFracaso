@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e318d5ad20fb44cbcd2774ba4fcb2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoDuration: 36
+  videoDuration: 35
 --- !u!4 &1844628171
 Transform:
   m_ObjectHideFlags: 0
