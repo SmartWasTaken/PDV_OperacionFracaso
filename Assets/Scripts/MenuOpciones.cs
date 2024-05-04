@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class MenuOpciones : MonoBehaviour
 {
+
+    public void PantallaCompleta(bool pantallaCompleta){
+        Screen.fullScreen = pantallaCompleta;
+    }
+
     [SerializeField] private AudioMixer audioMixer;
     public void CambiarVolumen(float volumen){
         audioMixer.SetFloat("Volumen", volumen);
     }
-    /*
-    public void Reiniciar(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex)
-        //Cuando esten las escenas se debe modificar una parte en Unity
-    }
-    */
+   
 }
