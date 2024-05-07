@@ -14,6 +14,6 @@ public class SceneLoader2 : MonoBehaviour
         yield return new WaitForSeconds(videoDuration);
 
         // Load the main menu scene
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Salon");
     }
 }

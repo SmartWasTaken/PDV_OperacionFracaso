@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuPrin : MonoBehaviour
 {
     public void Jugar(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        SceneManager.LoadScene("instrucciones");
 
     }
     public void Salir(){
