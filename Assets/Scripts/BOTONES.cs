@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class BOTONES : MonoBehaviour
 {
     public void ReiniciarJuego()
     {
@@ -11,13 +11,6 @@ public class GameManager : MonoBehaviour
 
     public void SalirDelJuego()
     {
-        if (Application.isEditor)
-        {
-            UnityEditor.EditorApplication.isPlaying = false;
-        }
-        else
-        {
-            Application.Quit();
-        }
+        Application.Quit();
     }
 }
